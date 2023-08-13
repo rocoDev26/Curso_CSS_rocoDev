@@ -1,0 +1,94 @@
+/*
+
+.links:nombreDeLaPseudoclase
+h1:nombreDeLaPseudoclase
+*/
+
+/* :active | Selecciona los elementos que están actualmente activados, como un botón que se está presionando. */
+.btn {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+
+    transition: all .3s ease-in-out;
+}
+/* .btn:active{
+    background-color: #33333398;
+    padding: 20px;
+} */
+
+/* :hover | Selecciona los elementos que se están pasando el cursor por encima. */
+.btn:hover{
+    background-color: #33333398;
+    padding: 20px;
+    transform: rotate(360deg);
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s ease-out;
+}
+a:hover {
+    box-shadow: 0px 2px 0px 0px black;
+}
+
+/* :focus | Selecciona los elementos que están enfocados, como un campo de texto que se está escribiendo. */
+
+.input_text{
+    margin-top: 20px;
+    transition: padding .3s ease-in;
+}
+.input_text:focus{
+    padding: 10px;
+}
+
+
+/* :checked | Selecciona los elementos que están marcados, como una casilla de verificación que está marcada. */
+.input_check {
+    transition: transform .3s ease-out;
+}
+.input_check:checked{
+    transform: scale(2);
+}
+
+/* :first-child | Selecciona el primer elemento hijo de su padre. */
+/* .parrafo:first-child {
+    font-size: 50px;
+    color: red;
+} */
+/* :last-child | Selecciona el último elemento hijo de su padre. */
+/* .parrafo:last-child {
+    font-size: 30px;
+    color: blue;
+} */
+
+/* :nth-child(n) | Selecciona el n-ésimo elemento hijo de su padre, donde n es un número. */
+/* .parrafo:nth-child(3){
+    color: chocolate;
+    font-size: 50px;
+} */
+
+/* :nth-of-type(n) | Selecciona el n-ésimo elemento de un tipo específico, donde n es un número. 
+odd impares
+even pares
+*/
+/* .parrafo:nth-of-type(even){
+    color: red;
+    font-size: 30px;
+} */
+
+/* :nth-last-child(n) | Selecciona el n-ésimo elemento hijo desde el final de su padre, donde n es un número. */
+.parrafo:nth-last-child(5n){
+    
+}
+
+
+/* :nth-last-of-type(n) | Selecciona el n-ésimo elemento de un tipo específico desde el final de su padre, donde n es un número. */
+
+.parrafo:nth-last-of-type(2n){
+    color: red;
+    font-size: 20px;
+}

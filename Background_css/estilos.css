@@ -1,0 +1,33 @@
+/*
+La propiedad background es una propiedad abreviada que combina varias propiedades de fondo en una sola
+línea de código. Las propiedades que se pueden incluir en la propiedad background son:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position  
+
+shorthand
+background: #f5f5f5 url("img_tree.png") no-repeat right top;
+
+propiedades independientes
+background-color: #f5f5f5;
+background-image: url("img_tree.png");
+background-repeat: no-repeat;
+background-position: right top;
+*/
+.contenedor_background {
+    border: 4px solid green;
+    color: black;
+    height: 600px;
+    width: 600px;
+    /* background-color: rgba(156, 4, 156, 0.763);
+    background-image: url("https://images.pexels.com/photos/3808904/pexels-photo-3808904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+    background: mediumslateblue url("./images/pexels-willian-justen-de-vasconcellos-15857477.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,44 @@
+/*
+3 TIPOS DE GRADIENTES
+* LINEALES
+* RADIALES
+* CONICOS
+ */
+
+
+
+.gradientes_lineales{
+    border: 3px solid red;
+    height: 400px;
+    text-align: center;
+    color: white;
+
+     /* LINEALES */
+    background-image: linear-gradient(green, blue, red, yellow);
+    background-image: linear-gradient(to top,green, white, yellow);
+    background-image: linear-gradient(to top right,green, white, red);
+
+    background-image: linear-gradient(to top right,green 45%, white 50%);
+    background-image: linear-gradient(to top left,green 50%, white 50%);
+    background-image: repeating-linear-gradient(red 10%, blue 20%);
+    background-image: repeating-linear-gradient(red 10%, blue 20%, green 30%, yellow 40%);
+
+
+     /* RADIALES */
+    background-image: radial-gradient(green, white);
+    background-image: radial-gradient(green, white, blue);
+    background-image: radial-gradient(200px,green, white);
+    /* background-image: radial-gradient(400px,green, white, blue); */
+    background-image: radial-gradient(200px,green 40%, rgb(76, 235, 253) 40%, blue 20%, yellow 90%);
+    /* background-image: radial-gradient(200px,green 20%, rgb(76, 235, 253) 10%, blue 10%, yellow 10%); */
+    /* background-image: radial-gradient(200px,green 20%, rgb(76, 235, 253) 10%, blue 10%, yellow 80%); */
+
+    
+    /* CONICOS */
+    background-image: conic-gradient(red, yellow);
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    /* background-image: conic-gradient(at 60% 45%, red, yellow, green); */
+    /* background-image: conic-gradient(at 50% 50%, red, yellow, green); */
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}

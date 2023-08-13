@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.sectionContenedor {
+    border: 10px solid red;
+    height: 200px;
+    width: 300px;
+    display:inline-block;
+}
+
+.sectionContenedor2 {
+    border: 40px solid rgb(24, 80, 246);
+    height: 200px;
+    width: 300px;
+    display:inline-block;    
+}

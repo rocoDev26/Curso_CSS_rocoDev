@@ -1,0 +1,94 @@
+/* UNIDADES DE MEDIDA EN CSS */
+
+
+/* UNIDADES ABSOLUTAS */
+/* px: Píxeles. Es la unidad más usada en CSS y corresponde a un punto en la pantalla, aunque puede */
+/* h1 {
+    font-size: 50px;
+} */
+
+/* in: Pulgadas. Una pulgada equivale a 2,54 centímetros o a 96 píxeles. */
+/* h1 {
+    font-size: 1in;
+} */
+/* cm: Centímetros. Un centímetro equivale a 0,39 pulgadas o a 37,8 píxeles. */
+/* h1 {
+    font-size: 5cm;
+} */
+/* mm: Milímetros. Un milímetro equivale a 0,1 centímetros o a 3,78 píxeles. */
+/* h1 {
+    font-size: 10mm;
+} */
+/* pt: Puntos. Un punto equivale a 1/72 de pulgada o a 1,33 píxeles. */
+/* h1 {
+    font-size: 35pt;
+} */
+/* pc: Picas. Una pica equivale a 12 puntos o a 16 píxeles. */
+/* h1 {
+    font-size: 2pc;
+} */
+
+
+/* UNIDADES RELATIVAS */
+
+/* %: Porcentajes. */
+body{
+    margin: 0;
+    /* width:100% */
+}
+.section_padre {
+    border: 3px solid red;
+    height: 100vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.div_hijo{
+    border: 5px solid green;
+    width: 45%; 
+    height: 200px;
+    display: inline-block;
+    
+}
+.div_hijo_2 {
+    display: inline-block;
+    border: 5px solid black;
+    height: 200px;
+    width: 45%;
+}
+
+/* em: Es una unidad relativa al tamaño de la fuente del elemento actual o del elemento padre. Por ejemplo,
+si el elemento padre tiene un tamaño de fuente de 16px y el elemento actual tiene un tamaño de fuente
+de 2em, el tamaño real de la fuente será de 32px. */
+.elementoPadre_emyrem {
+}
+.elementoPadre_emyrem h2 {
+}
+.elementoPadre_emyrem p {
+}
+/* rem: Es una unidad relativa al tamaño de la fuente del elemento raíz (el elemento html). Por ejemplo, si
+el elemento html tiene un tamaño de fuente de 16px y el elemento actual tiene un tamaño de fuente de
+2rem, el tamaño real de la fuente será de 32px. */
+html {
+    font-size: 30px;
+}
+.elementoPadre_emyrem {
+
+}
+.elementoPadre_emyrem h2 {
+    font-size: 2rem;
+}
+.elementoPadre_emyrem p {
+    font-size: .6rem;
+}
+h1 {
+    font-size: 3rem;
+}
+/* vw: Es una unidad relativa al ancho del viewport (la parte visible de la pantalla). Un vw equivale al 1%
+del ancho del viewport. Por ejemplo, si el viewport tiene un ancho de 800px y el elemento actual tiene
+un ancho de 50vw, el ancho real del elemento será de 400px. */
+
+/* 
+vh: Es una unidad relativa al alto del viewport (la parte visible de la pantalla). Un vh equivale al 1% del
+alto del viewport. Por ejemplo, si el viewport tiene un alto de 600px y el elemento actual tiene un alto de
+50vh, el alto real del elemento será de 300px. */

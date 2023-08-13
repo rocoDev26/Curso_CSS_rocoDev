@@ -1,0 +1,89 @@
+
+/* 
+    top
+    bottom
+    left
+    right
+*/
+main {
+    padding-top: 55px;
+}
+.header {
+    height: 50px;
+    background-color: firebrick;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    width: 100%;
+}
+.sectionContainer{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    position: relative;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    /* 
+    top
+    bottom
+    left
+    right
+    z-index
+*/  
+
+}
+.article {
+    width: 200px;
+    height: 200px;
+    background-color: #2209dc;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
+.article2 {
+    z-index: 5;
+    width: 200px;
+    height: 200px;
+    background-color: #07e856;
+}
+/* "static":
+
+Es el valor predeterminado para todos los elementos.
+El elemento se posiciona según el flujo normal del documento.
+Ignora las propiedades top, bottom, left y right.
+*/
+
+
+
+/* "relative"
+
+El elemento se posiciona de manera relativa a su posición normal.
+Puede utilizar las propiedades top, bottom, left y right para ajustar su posición desde su posición original.
+El espacio ocupado por el elemento en el flujo normal del documento se mantiene, incluso si se desplaza.
+Valor "absolute": */
+
+
+/* "absolute"
+
+El elemento se posiciona de manera absoluta en relación con su primer elemento padre que tenga una posición relativa, absoluta o fija.
+Utiliza las propiedades top, bottom, left y right para especificar su posición.
+El espacio ocupado por el elemento se elimina del flujo normal del documento.
+*/
+
+
+
+/* "fixed"
+
+El elemento se posiciona de manera fija en relación con la ventana del navegador, incluso si se desplaza.
+Utiliza las propiedades top, bottom, left y right para especificar su posición.
+El espacio ocupado por el elemento se elimina del flujo normal del documento.
+Valor "sticky": */
+
+
+
+/* 
+"sticky"
+El elemento se posiciona según el flujo normal del documento hasta que alcanza una posición específica, y luego se vuelve "pegajoso" en relación con su contenedor o con el área visible de la ventana.
+Utiliza las propiedades top, bottom, left y right para especificar la posición "pegajosa".
+El espacio ocupado por el elemento se mantiene en el flujo normal del documento hasta que se vuelve "pegajoso". */

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_container {
+    border: 10px solid rgb(244, 115, 29);
+    height: 600px;
+    width: 100%;
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+    align-content: center;
+
+    align-items: end;
+    justify-items: start;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 10px;
+
+}
+
+.grid_hijos {
+    border: 5px solid black;
+}

@@ -1,0 +1,48 @@
+/* Propiedades para modificar nuestro texto
+font-family
+font-size
+font-weight
+font-style | italic, normal, oblique
+
+
+Shorthand para escribir todas la propiedades resumidas en una 
+sola linea
+font: font-style | font-weight | font-size | font-famyly
+*/
+
+.titulo{
+    font-size: 60px;
+    /* Se usan otras medidas que no son en pixeles para darle tamaño a la fuente 
+    em
+    rem
+    %
+    */
+}
+.parrafo{
+    /* font-weight: bold;
+    font-style: italic; */
+    font: italic bold 18px Arial, Verdana;
+    text-align: justify;
+    text-align-last: auto;
+    text-indent: 50px;
+    letter-spacing: 0;
+    word-spacing: 10px;
+    line-height: auto;
+}
+.sectionPrincipal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman";
+}
+
+/* 
+text-align
+
+text-align-last
+
+text-indent
+
+letter-spacing
+
+word-spacing
+
+line-height
+*/

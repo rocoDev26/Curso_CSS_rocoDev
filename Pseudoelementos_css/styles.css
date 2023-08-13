@@ -1,0 +1,59 @@
+/* 
+Los pseudoelementos en CSS son selectores que te permiten seleccionar y estilizar partes específicas de un elemento HTML.
+
+::before | ::after | ::first-letter
+::first-line | ::selection | ::placeholder
+
+.nombreDeClase::before
+
+*/
+
+/*
+::before: se utiliza para agregar contenido adicional antes del contenido de un elemento HTML.
+*/
+h1{
+    margin-top: 100px;
+}
+/* h1::before {
+    content: "";
+    
+} */
+
+/*
+::after: se utiliza para agregar contenido adicional después del contenido de un elemento HTML.
+*/
+/* h1::after {
+    content: "";
+    border: 3px solid red;
+} */
+/*
+::first-letter: se utiliza para aplicar estilos a la primera letra de un elemento HTML. 
+*/
+h1::first-letter {
+    color: red;
+    font-size: 45px;
+}
+/*
+::first-line: se utiliza para aplicar estilos a la primera línea de un elemento HTML.
+*/
+p::first-line {
+    font-size: 40px;
+    color: slateblue;
+}
+
+/*
+::selection: se utiliza para aplicar estilos al texto seleccionado por el usuario.
+*/
+p::selection{
+    background-color: red;
+    color: blue;
+}
+
+
+/*
+::placeholder: se utiliza para aplicar estilos al texto de marcador de posición en un campo de entrada.
+*/
+input::placeholder{
+    color: red;
+    font-size: 20px;
+}

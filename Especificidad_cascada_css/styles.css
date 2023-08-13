@@ -1,0 +1,66 @@
+/* * {
+    color: red;
+    font-size: 100px;
+} */
+/* #titulo_h1 {
+    color: slateblue;
+    font-size: 120px;
+} */
+
+.titulo {
+    color: red;
+    font-size: 40px;
+}
+
+[id] {
+    color: blueviolet;
+    font-size: 150px;
+}
+
+h1 {
+    color: green;
+    font-size: 100px;
+}
+
+
+h1 + p {
+    color: blueviolet; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: chartreuse;
+}
+
+
+/* 
+1) Selectores de tipo o selectores de etiqueta: Estos selectores apuntan a elementos específicos o a partes específicas de los elementos. Tienen la menor especificidad. Por ejemplo:
+
+p: Selecciona todos los elementos p.
+
+
+2) Selectores de clase: Estos selectores se basan en clases asignadas a los elementos o en su estado. Tienen una especificidad mayor que los selectores de tipo. Por ejemplo:
+
+.mi-clase: Selecciona todos los elementos con la clase mi-clase.
+:hover: Selecciona un elemento cuando se encuentra en estado de "hover" (cuando el cursor está sobre él).
+Selectores de ID: Estos selectores se basan en el atributo id de los elementos y tienen una especificidad mayor que los selectores de clase y tipo. Por ejemplo:
+
+3) #mi-id: Selecciona el elemento con el id igual a mi-id.
+
+
+4) Selectores de atributo: 
+[type="text"]: Selecciona todos los elementos con el atributo type igual a "text".
+
+
+5) Selectores universales: Estos selectores seleccionan todos los elementos pero no tienen ninguna prioridad en la especificidad. Por ejemplo:
+
+*: Selecciona todos los elementos del documento.
+
+
+6) Selectores combinados: Los selectores combinados son una combinación de múltiples selectores, como el selector descendente, el selector de hijo directo y el selector de hermanos adyacentes. Tienen una especificidad mayor que los selectores individuales. Por ejemplo:
+
+div p: Selecciona todos los elementos p que son descendientes de elementos div.
+ul > li: Selecciona todos los elementos li que son hijos directos de elementos ul.
+h1 + p: Selecciona el elemento p adyacente inmediatamente después de un elemento h1.
+Recuerda que cuando hay conflictos entre reglas de estilo que utilizan diferentes selectores, la regla con la mayor especificidad prevalecerá. */

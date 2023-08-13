@@ -1,0 +1,128 @@
+/* Selectores css */
+/* Los selectores definen sobre qué elementos se aplicará un conjunto de reglas CSS. */
+
+/* 
+
+selector {
+    propiedad: valor
+}
+
+*/
+
+
+
+
+/* SELECTORES EN ORDEN DE COMPLEJIDAD */
+
+/* 1) Selector de tipo 
+Selecciona todos los elementos que coinciden con el nombre del elemento especificado.
+Sintaxis: h1 
+*/
+/* 
+p {
+    color: red;
+    font-size: 40px;
+} */
+
+
+
+/* 2) Selector de clase 
+Selecciona todos los elementos que tienen el atributo de class especificado.
+Sintaxis: .nombreDeClase
+*/
+
+/* .navbar_parrafo {
+    color: greenyellow;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+
+
+
+/* 3) Selector de ID 
+Selecciona un elemento basándose en el valor de su atributo id. Solo puede haber un elemento con un determinado ID dentro de un documento.
+Sintaxis: #nombreDeId
+*/
+
+/* #parrafoMain {
+    font-size: 48px;
+    color: slateblue;
+} */
+
+
+
+
+
+/* 4) Selector Universal
+El selector universal CSS (*) coincide con elementos de cualquier tipo. Selecciona a todos los elementos html y rompe con la especificidad y cascada en css.
+Sintaxis: * se aplicara a todos los elementos del documento
+*/
+
+/* * {
+    color: red;
+    font-size: 48px;
+} */
+
+
+
+/* 5) Selector de atributo 
+Selecciona elementos basándose en el valor de un determinado atributo.
+Sintaxis: [nombreAtributo]
+*/
+
+/* [href="www.google.com"] {
+    font-size: 40px;
+} */
+
+
+
+/* 6) Selector de hermanos adyacentes
+El combinador + selecciona hermanos adyacentes. Esto quiere decir que el segundo elemento sigue directamente al primero y ambos comparten el mismo elemento padre.
+Sintaxis: p + h1
+Seleccionara a todos los h1 que vengan inmediatamente despues de un p
+*/
+
+/* div + h2 {
+    font-size: 49px;
+    color: red;
+} */
+
+/* p ~ h2 {
+    font-size: 39px;
+    color: lightsalmon;
+} */ 
+
+
+/* 7) Selector de hijo
+El combinador > selecciona los elementos que son hijos directos del primer elemento.
+
+Sintaxis: ul > li
+Seleccionara a todos los li que son hijos directos de un ul
+*/
+
+/* section > h2 {
+    color: red;
+    font-size: 59px;
+}
+
+div > p {
+    color: blue;
+    font-size: 49px;
+} */
+
+
+/* 8) Selector descendiente
+El combinador (espacio) selecciona los elementos que son descendientes del primer elemento.
+Sintaxis: section h3 
+Esto aplicara estilos a todos los h1 dentro de un section
+ */
+
+div p {
+    font-size: 40px;
+    color: blue;
+}
+
+p {
+    color: red;
+}

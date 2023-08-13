@@ -1,0 +1,23 @@
+/* Los elementos html tienen una altura y un ancho definido según su contenido. Un parrafo por ejemplo será ta ancho y alto según su contenido
+
+
+Pero podemos cambiarle su tamaño a nuestro gusto con CSS con las propiedades widht y height
+width y height aceptan px | % | auto */
+
+/*
+width
+height
+overflow
+overflow-x
+overflow-y
+overflor-wrap 
+ */
+
+.parrafo{
+    border: 3px solid red;
+    width: 50px;
+    height: auto;
+    /* overflow:auto; */
+    /* overflow-y: auto; */
+    overflow-wrap: break-word;
+}

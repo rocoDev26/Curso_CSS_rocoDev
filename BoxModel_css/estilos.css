@@ -1,0 +1,29 @@
+body {
+    border: 10px solid rgb(47, 78, 255);
+
+    padding: 30px;
+}
+.seccion_1 {
+    border: 5px solid red;
+    padding: 10px 50px;
+    margin-top: 100px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seccion_2 {
+    border: 5px solid green;
+    margin-top: 60px;
+    padding: 70px 10px;
+    width: 400px;
+    margin-left: auto;
+}
+.enlace {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px;
+    border-radius: 10%;
+}

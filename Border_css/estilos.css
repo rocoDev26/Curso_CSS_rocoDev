@@ -1,0 +1,30 @@
+/* 
+
+border-width: 3px;
+border-style: dashed;
+border-color: red;
+
+border-top: 3px solid red
+
+solid: Es un borde de una línea sólida. Ejemplo: border: 1px solid #000;
+dotted: Es un borde compuesto por una línea de puntos. Ejemplo: border: 1px dotted #f00;
+double: Es un borde formado por una doble línea sólida. Ejemplo: border: 3px double #0f0;
+dashed: Es un borde formado por una línea discontinua. Ejemplo: border: 2px dashed #00f;
+groove: Es un borde que crea un efecto de relieve hundido. Ejemplo: border: 4px groove #ff0;
+ridge: Es un borde que crea un efecto de relieve saliente. Ejemplo: border: 4px ridge #f0f;
+inset: Es un borde que crea un efecto de elemento insertado. Ejemplo: border: 4px inset #0ff;
+outset: Es un borde que crea un efecto de elemento saliente. Ejemplo: border: 4px outset #f00;
+
+*/
+
+section {
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: brown; */
+    /* border: 4px dashed slateblue; */
+
+    border-top: 5px solid green;
+    border-left: 5px solid red;
+    border-bottom: 5px solid blue;
+
+}

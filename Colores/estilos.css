@@ -1,0 +1,58 @@
+/* En la web y en la mayoría de las aplicaciones digitales, se utiliza una escala de valor de color de 0 a 255. Nosotros decidimos cuanto de rojo, verde o azul va a mostrar la computadora. Esa combinación crea el color que ve el espectador.
+
+Nombre del color
+red, blue, green, etc rgb red, green, blue
+
+hexadecimal:
+
+0 - 9 | 0 1 2 3 4 5 6 7 8 9
+a - f | a b c d e f
+Siendo 0 lo mas oscuro y 9 totalmente blanco
+Siendo a gris y f totalmente negro
+#aaa = gris 
+#bbb = menos gris
+#ccc = menos gris
+#fff = blanco
+
+rojo | verde | azul 
+
+#ff0000 = rojo
+#00ff00 = verde
+#0000ff = azul
+#ff00ff
+#00ffff
+#f3f3f3
+#000000 = negro
+#000 = negro
+#ffffff = blanco
+
+rgb(rojo, verde, azul)—Esta función define un color por medio de los valores
+especificados por los atributos (desde 0 a 255). El primer valor representa el nivel de rojo,
+el segundo valor representa el nivel de verde y el último valor el nivel de azul (por ejemplo,
+rgb(153, 102, 51)).
+
+rgba(rojo, verde, azul, alfa)—Esta función es similar a la función rgb(), pero incluye
+un componente adicional para definir la opacidad (alfa). El valor se puede declarar entre 0
+y 1, con 0 como totalmente transparente y 1 como totalmente opaco.
+
+hsl(matiz, saturación, luminosidad)—Esta función define un color desde los valores
+especificados por los atributos. Los valores se declaran en números decimales y porcentajes.
+
+hsla(matiz, saturación, luminosidad, alfa)—Esta función es similar a la función
+hsl(), pero incluye un componente adicional para definir la opacidad (alfa). El valor se
+puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco. 
+*/
+h1 {
+    /* color: darkorange; */
+    font-size: 80px;
+    color: #f3f3f3;
+    color: #999;
+    color: #a800f1;
+
+    /* 0 a 1 0.1 0.2 0.3 */
+    /* color: hsl(0, 0%, 100%); */
+    color: hsl(190, 70%, 80%);
+    color: #8bd450e9;
+}
+/* hsl(matiz, saturación, luminosidad)—Esta función define un color desde los valores
+especificados por los atributos. Los valores se declaran en números decimales y porcentajes. */

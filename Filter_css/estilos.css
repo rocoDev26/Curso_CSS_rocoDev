@@ -1,0 +1,56 @@
+img {
+    height: 300px;
+    width: 300px;
+
+    /* filter: blur(10px); */
+
+    
+    /* 40% del brillo original */
+    filter: brightness(0.65);
+
+    /* 150% del brillo original */
+    filter: brightness(60%);
+
+    /* 200% del contraste original */
+    filter: contrast(100%);
+    
+    /* 50% del contraste original */
+    filter: contrast(1.5);
+
+    /* Sombra azul desplazada 16px a la derecha y abajo, con un radio de difuminado de 20px */
+    filter: drop-shadow(16px 16px 20px rgba(0, 0, 0, 0.207)); 
+    border-radius: 50%;
+
+    /* 50% de escala de grises */
+    filter: grayscale(60%); 
+    /* 100% de escala de grises */
+    filter: grayscale(.5); 
+
+    /* Rota el tono 90 grados */
+    filter: hue-rotate(80deg); 
+    /* Rota el tono un cuarto de vuelta */
+    filter: hue-rotate(0.25turn); 
+
+    /* Invierte el 75% de los colores */
+    filter: invert(15%); 
+    /* No invierte ningún color */
+    /* filter: invert(0);  */
+
+    /* 25% de opacidad */
+    filter: opacity(70%); 
+    /* 50% de opacidad */
+    /* filter: opacity(0.5);  */
+
+    /* 30% de saturación */
+    filter: saturate(80%); 
+    
+    /* 200% de saturación */
+    /* filter: saturate(2);  */
+
+    /* 60% de sepia */
+    filter: sepia(50%); 
+    /* 100% de sepia */
+    /* filter: sepia(1);  */
+
+    filter: blur(3px) grayscale(.5) opacity(.3) ;
+}
